@@ -117,17 +117,6 @@ const Sidebar = () => {
           })}
         </div>
       </div>
-
-      <div className={`${getNavItemClasses({})} px-3 py-4`}>
-        <div style={{ width: "2.5rem" }}>
-          <LogoutIcon />
-        </div>
-        {!toggleCollapse && (
-          <span className={classNames("text-md font-medium text-text-light")}>
-            Logout
-          </span>
-        )}
-      </div>
     </div>
   );
 };
